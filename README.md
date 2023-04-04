@@ -40,9 +40,9 @@ price: Price of the given Diamond.
 * Matplotlib
 * Seaborn  
 * Flask
-* 
+ 
 ![demo16](https://user-images.githubusercontent.com/115715763/229868001-3ad3c4cc-b2b9-4556-acd1-764c5055bffe.png)
-![demo15](https://user-images.githubusercontent.com/115715763/229867919-13dcf915-2e59-44e9-a096-e2d2875c1ea5.png)
+![demo17](https://user-images.githubusercontent.com/115715763/229883522-5810e4b2-a7bf-4975-a660-6d268f0b4904.png)
 
 
 
