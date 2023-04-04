@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+   
+<body>
+    <div style="color:rgb(0, 0, 0)">
+       <h1 style="margin-top: 10px;margin-bottom: 10px;font-size: 150px;">GEM STONE PRICE PREDICTION</h1>
+   
+       <form action="{{ url_for('predict_datapoint')}}" method="post">
+
+        <h4 style="margin-top: 0px;margin-bottom: 0px;">carat</h4>
+            <input name="carat" id="first" placeholder="Enter carat">
+
+         <h4 style="margin-top: 0px;margin-bottom: 0px;">cut</h4>
+            <select name="cut"  id="first" placeholder="Enter the quality of cut" required> 
+                <option class="placeholder" selected disabled value="">Select the quality of cut</option>
+                <option value="Ideal">
+                    Ideal
+                </option>
+                <option value="Premium">
+                    Premium
+                </option>
+                <option value="Very good">
+                    Very Good
+                </option>
+                <option value="Good">
+                    Good
+                </option>
+                <option value="Fair">
+                    Fair
+                </option>
+
+            </select> 
+            
+            <h4 style="margin-top: 0px;margin-bottom: 0px;">color</h4>
+            <select name="color"  id="first" placeholder="Enter the color of diamond" required> 
+                <option class="placeholder" selected disabled value="">Select the color of diamond</option>
+                <option value="D">
+                    D
+                </option>
+                <option value="E">
+                    E
+                </option>
+                <option value="F">
+                    F
+                </option>
+                <option value="G">
+                    G
+                </option>
+                <option value="H">
+                    H
+                </option>
+                <option value="I">
+                    I
+                </option>
+                <option value="J">
+                    J
+                </option>
+
+            </select> 
+            
+            <h4 style="margin-top: 0px;margin-bottom: 0px;">clarity</h4>
+            <select name="clarity"  id="first" placeholder="Enter the clarity of diamond" required> 
+                <option class="placeholder" selected disabled value="">Select the clarity of diamond</option>
+                <option value="IF">
+                    IF
+                </option>
+                <option value="VVS1">
+                    VVS1
+                </option>
+                <option value="VVS2">
+                    VVS2
+                </option>
+                <option value="VS1">
+                    VS1
+                </option>
+                <option value="VS2">
+                    VS2
+                </option>
+                <option value="SI1">
+                    SI1
+                </option>
+                <option value="SI2">
+                    SI2
+                </option>
+                <option value="I1">
+                    I1
+                </option>
+
+            </select>
+           
+        <h4 style="margin-top: 0px;margin-bottom: 0px;">depth</h4>
+            <input name="depth" id="first"
+                placeholder="Enter the depth">
+        
+
+        <h4 style="margin-top: 0px;margin-bottom: 0px;">table</h4>
+            <input name="table" id="first"
+                placeholder="Enter the table">
+
+        <h4 style="margin-top: 0px;margin-bottom: 0px;">x</h4>
+            <input name="x" id="first"
+                placeholder="Enter x dimension">
+        
+
+        <h4 style="margin-top: 0px;margin-bottom: 0px;">y</h4>
+            <input name="y" id="first"
+                placeholder="Enter y dimension">
+        
+
+        <h4 style="margin-top: 0px;margin-bottom: 0px;">z</h4>
+            <input name="z" id="first"
+                placeholder="Enter z dimension">
+    
+        
+        <br><button id="sub" style="height:60px;" type="submit ">Predict</button>
+    </form>
+    <h3 style="margin-top:10px;margin-bottom:10px;">{{results}}</h3>
+    </div>
+
+    <style>
+        body {
+            background-color: lightslategray;
+            text-align: center;
+            padding: 0px;
+            font-size: 100px
+            
+        }
+
+        #box {
+            border-radius: 60px;
+            border-color: 45px;
+            border-style: solid;
+            font-family: cursive;
+            text-align: center;
+            background-color: rgb(167, 163, 163);
+            font-size: medium;
+            position: absolute;
+            width: 800px;
+            bottom: 9%;
+            height: 800px;
+            right: 30%;
+            padding: 0px;
+            margin: 0px;
+            font-size: 14px;
+        }
+
+        #sub {
+            width: 200px;
+            height: 43px;
+            text-align: center;
+            border-radius: 14px;
+            font-size: 40px;
+            margin-top: 10px;
+        }
+        
+        #sub:hover {
+            background-color: rgb(115, 91, 182);
+        }
+
+        #first {
+            width:600px;
+            border-radius: 10px;
+            height: 82px;
+            font-size: 35px;
+            text-align: center;
+        }
+
+        </style>
+</body>
+</html>
