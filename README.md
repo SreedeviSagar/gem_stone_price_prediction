@@ -1,4 +1,4 @@
-## GEM STONE PRICE PREDICTION-DEPLOYMENT IN AWS CLOUD USING CI CD PIPELINE
+### GEM STONE PRICE PREDICTION-DEPLOYMENT IN AWS CLOUD USING CI CD PIPELINE
 
 #### Problem Statement:
     The goal is to predict price of given diamond (Regression Analysis).
