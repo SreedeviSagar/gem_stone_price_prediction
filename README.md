@@ -1,4 +1,4 @@
-# GEM STONE PRICE PREDICTION
+## GEM STONE PRICE PREDICTION-DEPLOYMENT IN AWS CLOUD USING CI CD PIPELINE
 
 #### Problem Statement:
     The goal is to predict price of given diamond (Regression Analysis).
@@ -40,12 +40,14 @@ price: Price of the given Diamond.
 * Matplotlib
 * Seaborn  
 * Flask
+* Docker hub
 * AWS
 
  
 ![demo16](https://user-images.githubusercontent.com/115715763/229868001-3ad3c4cc-b2b9-4556-acd1-764c5055bffe.png)
 ![demo17](https://user-images.githubusercontent.com/115715763/229883522-5810e4b2-a7bf-4975-a660-6d268f0b4904.png)
-![demo19](https://user-images.githubusercontent.com/115715763/232430851-72d19348-176a-4a3b-981e-542b33616806.png)
+![demo21](https://user-images.githubusercontent.com/115715763/232431532-cd23b3a0-b061-4edf-815c-e2d847636cff.png)
+
 
 
 
